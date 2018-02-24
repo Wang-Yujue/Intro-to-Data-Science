@@ -63,27 +63,6 @@ def get_list_of_university_towns():
 # print(get_list_of_university_towns())
 
 
-# def get_list_of_university_towns():
-#     row = []
-#     with open('university_towns.txt') as data:
-#         for line in data:
-#             line = line[:-1]  # why this step?
-#             if line[-6:] == '[edit]':
-#                 state = line[:-6]
-#                 continue
-#             if '(' in line:
-#                 region = line[:line.index('(') - 1]
-#                 row.append([state, region])
-#             else:
-#                 row.append([state, line])
-#
-#     data = pd.DataFrame(row, columns=['State, RegionName'])
-#     return data
-#
-#
-# print(get_list_of_university_towns())
-
-
 def get_recession_start():
     '''Returns the year and quarter of the recession start time as a
     string value in a format such as 2005q3'''
