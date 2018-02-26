@@ -1,4 +1,5 @@
 # Introduction-to-Data-Science
+#### The basics of the python programming environment, including fundamental python programming techniques such as lambdas, reading and manipulating csv files, and the numpy library. The data manipulation and cleaning techniques using the popular python pandas data science library and introduce the abstraction of the Series and DataFrame as the central data structures for data analysis, along with functions such as groupby, merge, and pivot tables.
 #### Following topics are included：
 ### The Python Programming Language: Functions
 ### The Series Data Structure
